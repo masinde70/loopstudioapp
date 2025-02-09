@@ -1,5 +1,8 @@
 module.exports = {
-  content: ['./*.html'],
+  content: [
+    './*.html',
+    './src/**/*.{js,jsx,ts,tsx,vue}', // Added common paths for JS/TS and Vue files
+  ],
   theme: {
     screens: {
       'sm': '480px',
